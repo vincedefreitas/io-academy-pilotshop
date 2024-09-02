@@ -1,0 +1,237 @@
+.account-nav {
+  background-color: #f6f6f6;
+  color: #a8a8aa;
+  font-size: 12px;
+}
+
+.container {
+  max-width: 1028px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.account-nav-links {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  font-weight: 600;
+}
+
+.main-nav {
+  margin: 15px 0;
+}
+
+.main-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  font-weight: 600;
+}
+
+.hamburger-container {
+  display: none;
+  border: 1px solid #a8a8aaab;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+.hamburger {
+  width: 30px;
+  height: 2px;
+  background-color: #a8a8aa;
+  margin: 7px 0;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.hero {
+  background-image: url(./images/hero-image.webp);
+  color: white;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-container h1 {
+  font-size: 3em;
+  margin-bottom: 0;
+  margin-top: 100px;
+}
+
+.hero-container p {
+  margin-top: 5px;
+}
+
+.hero-container button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 7px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.callout-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.callout {
+  position: relative;
+  top: 30px;
+  padding: 50px 80px 50px 20px;
+  margin-top: 50px;
+}
+
+.callout h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.callout p {
+  margin-top: 2px;
+}
+
+.hot-headsets {
+  background-color: #2d2d2d;
+}
+
+.only-best {
+  background-color: #2671a3;
+}
+
+.portable-gps {
+  background-color: #3d97c6;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.red-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #b30101;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100px;
+  color: #fff;
+}
+
+.blue-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #3d97c6;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 100px;
+  color: #fff;
+}
+
+.card img {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin: 7px 0;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.price {
+  color: #2671a3;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+footer .container {
+  border-top: 1px solid #a8a8aa40;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo-container img {
+    width: 100%;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .callout-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0;
+  }
+
+  .account-nav-links,
+  .main-nav-links {
+    display: none;
+  }
+
+  .hamburger-container {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo-container img {
+    width: 100%;
+  }
+  .card-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+.black {
+  border-color: #000;
+}
+
+.black-line {
+  background-color: #000;
+}
