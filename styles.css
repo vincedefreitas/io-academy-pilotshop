@@ -31,9 +31,18 @@
 .main-nav-links {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
   list-style: none;
   font-weight: 600;
+}
+
+.main-nav-links li {
+  padding: 10px;
+  border: 2px solid transparent;
+}
+
+.main-nav-links li:hover {
+  border: 2px solid black;
 }
 
 .hamburger-container {
