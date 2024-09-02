@@ -80,6 +80,11 @@ li:hover {
   border: 2px solid white;
   color: white;
   padding: 10px 7px;
+  transition: 0.2s;
+}
+
+.hero-container button:hover {
+  background-color: #ffffff40;
 }
 
 button:hover {
